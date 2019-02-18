@@ -1,0 +1,22 @@
+<relation-parent>
+  <relation-child></relation-child>
+  <relation-child></relation-child>
+  <relation-child></relation-child>
+</relation-parent>
+<button bindtap="setTopBarText">点击改变置顶文字</button>
+
+
+<button type="primary" bindtap="showNavigationBarLoading">显示导航条加载动画</button>
+<button type="primary" bindtap="hideNavigationBarLoading">隐藏导航条加载动画</button>
+<button type="primary" bindtap="setNavigationBarTitle">设置导航条标题</button>
+<button type="primary" bindtap="setNavigationBarColor">设置导航条颜色</button>
+
+
+<button type="primary" bindtap="showTabBar">显示tabBar</button>
+<button type="primary" bindtap="hideTabBar">隐藏tabBar</button>
+<button type="primary" bindtap="setTabBarBadge">为tabBar右上角某一项添加文本</button>
+<button type="primary" bindtap="removeTabBarBadge">删除tabBar右上角某一项文本</button>
+<button type="primary" bindtap="showTabBarRedDot">显示tabBar右上角某一项的红点</button>
+<button type="primary" bindtap="hideTabBarRedDot">删除tabBar右上角某一项的红点</button>
+<button type="primary" bindtap="setTabBarItem">动态设置tabBar某一项内容</button>
+<button type="primary" bindtap="setTabBarStyle">设置tabBar整体样式</button>

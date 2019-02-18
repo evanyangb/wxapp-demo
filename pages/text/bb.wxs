@@ -1,0 +1,5 @@
+module.exports = {
+  aaa: 111,
+  bbb: 222
+}
+module.exports.msg = 'some msg'

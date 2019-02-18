@@ -1,0 +1,8 @@
+/* pages/helloworld/helloword.wxss */
+.text {
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  background-color: red;
+  display: block;
+}

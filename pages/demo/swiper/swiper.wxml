@@ -1,0 +1,28 @@
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="true">
+  <block wx:for="{{swiperList}}" wx:key="{{item}}">
+    <swiper-item>{{item}}</swiper-item>
+  </block>
+</swiper>
+<view class="switch-container">
+  <text>是否显示面板指示点</text>
+  <switch checked bindchange="changeIndicatorDots"></switch>
+</view>
+<view class="switch-container">
+  <text selectable="true" space="true">是 否 自动切换</text>
+  <switch bindchange="changeAutoplay"></switch>
+</view>
+<view class="slider-container">
+  <text>自动切换时长</text>
+  <text>{{currentInterval}}</text>
+  <slider max="5000" value="5000" bindchange="changeInterval" bindchanging="changingInterval"></slider>
+</view>
+<view class="slider-container">
+    <text>滑动动画时长</text>
+    <text>{{currentDuration}}</text>
+    <slider max="5000" value="500" bindchange="changeDuration" bindchanging="changingDuration"></slider>
+  </view>

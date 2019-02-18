@@ -1,0 +1,7 @@
+<navigator
+  wx:for="{{navigateList}}"
+  wx:key="{{item.url}}"
+  open-type="navigateTo"
+  url="{{item.url}}">
+  {{item.text}}
+</navigator>

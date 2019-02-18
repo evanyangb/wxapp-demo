@@ -1,0 +1,8 @@
+
+var obj = require('./bb.wxs')
+module.exports = {
+  aaa: 345,
+  obj: JSON.stringify(obj)
+}
+
+module.exports.foo = 123

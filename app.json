@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/text/text",
+    "pages/helloworld/helloworld",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/demo/view/view",
+    "pages/demo/scroll-view/scroll-view",
+    "pages/demo/swiper/swiper",
+    "pages/demo/api/api"
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/log.png",
+        "selectedIconPath": "images/log.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "测试demo",
+    "navigationBarTextStyle": "black"
+  }
+}

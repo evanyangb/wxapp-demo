@@ -1,0 +1,23 @@
+<!-- <import src="../template/a.wxml"></import> -->
+<include src="../template/a.wxml"></include>
+<!-- <template is="a" data="{{...obj}}"></template> -->
+
+<wxs module="m1">
+  module.exports = {
+    message: 'hello world'
+  }
+</wxs>
+<wxs src="./aa.wxs" module="tool"></wxs>
+<view>{{m1.message}}</view>
+<view>{{tool.obj}}</view>
+<button bindtap="navigateGoto">navigateTo</button>
+<button bindtap="redirectToGoto">redirectTo</button>
+<button bindtap="navigateBackGoto">navigateBack</button>
+<button bindtap="switchTabGoto">switchTab</button>
+<button bindtap="relaunchGoto">relaunch</button>
+<navigator
+  open-type="navigateTo"
+  url="../helloworld/helloworld?title=123"
+>
+  前往上一页
+</navigator>

@@ -1,0 +1,18 @@
+<!--pages/helloworld/helloword.wxml-->
+<button hidden>123</button>
+<view hidden>456</view>
+<text hidden class="text">789</text>
+<icon type="success" hidden></icon>
+<rich-text nodes="{{html}}">666</rich-text>
+<rich-text nodes="{{nodes}}"></rich-text>
+<block wx:for="{{items}}" wx:key="index">
+  <view>{{index}}:{{item.name}}</view>
+</block>
+<button bindtap="updateItems" data-num="{{0}}">点击+</button>
+<button bindtap="updateItems" data-num="{{1}}">点击-</button>
+<view>
+  今天吃什么：
+  <text wx:if="{{condition === 1}}">面食</text>
+  <text wx:elif="{{condition === 2}}">米饭</text>
+  <text wx:else>饺子</text>
+</view>

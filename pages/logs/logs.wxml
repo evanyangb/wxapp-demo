@@ -1,0 +1,9 @@
+<test-component prop-a="123" data-b="234"></test-component>
+<form bindsubmit="formBubmit">
+  <custom-form-field name="form-filed"></custom-form-field>
+  <checkbox-group name="checkbox">
+    <checkbox value="aa"></checkbox>
+  </checkbox-group>
+  <button form-type="submit">提交</button>
+</form>
+<component-export id="component-export"></component-export>

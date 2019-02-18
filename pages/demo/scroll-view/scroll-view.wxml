@@ -1,0 +1,22 @@
+<view class="section">
+  <view>垂直滚动</view>
+  <scroll-view
+    scroll-y="true"
+    bindscrolltoupper="upper"
+    bindscrolltolower="lower"
+    bindscroll="scroll"
+    scroll-width-animation="true"
+    enable-back-to-top="true"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+  >
+    <view id="green" class="bg_green"></view>
+    <view id="yellow" class="bg_yellow"></view>
+    <view id="blue" class="bg_blue"></view>
+    <view id="red" class="bg_red"></view>
+  </scroll-view>
+  <view class="btn-area">
+    <button bindtap="tap">click me scroll into view</button>
+    <button bindtap="tapmove">click me to scroll</button>
+  </view>
+</view>

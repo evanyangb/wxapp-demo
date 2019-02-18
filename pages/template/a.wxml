@@ -1,0 +1,10 @@
+<import src="./b.wxml"></import>
+<view>This is a.wxml</view>
+<template name="a">
+  <view>
+    <view>收件人：{{name}}</view>
+    <view>联系方式：{{phone}}</view>
+    <view>地址：{{address}}</view>
+  </view>
+</template>
+<template is="b"></template>

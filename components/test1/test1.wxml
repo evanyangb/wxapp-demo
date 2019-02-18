@@ -1,0 +1,4 @@
+<view>
+  <text>测试组件1</text>
+  <button bindtap="changePropA">点击改变propA</button>
+</view>

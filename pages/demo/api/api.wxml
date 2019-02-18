@@ -1,0 +1,29 @@
+<text>获取电量</text>
+<button type="primary" bindtap="getBatteryInfo">获取电量</button>
+<text>剪贴板</text>
+<button type="primary" bindtap="clearClipboardData">清空剪贴板内容</button>
+<button type="primary" bindtap="getClipboardData">获取剪贴板</button>
+<button type="primary" bindtap="setClipboardData">设置剪贴板</button>
+<text>添加手机联系人</text>
+<button type="primary" bindtap="addPhoneContact">添加手机联系人</button>
+<text>屏幕</text>
+<button type="primary" bindtap="getScreenBrightness">获取屏幕亮度</button>
+<button type="primary" bindtap="setScreenBrightness">设置屏幕亮度</button>
+<button type="primary" bindtap="setKeepScreenOn">保持常亮状态</button>
+<button type="primary" bindtap="onUserCaptureScreen">监听用户截屏事件</button>
+<text>拨打电话</text>
+<button type="primary" bindtap="makePhoneCall">拨打电话</button>
+<text>加速计</text>
+<button type="primary" bindtap="startAccelerometer">开始监听加速度数据</button>
+<button type="primary" bindtap="stopAccelerometer">停止监听加速度数据</button>
+<text>罗盘</text>
+<button type="primary" bindtap="startCompass">开始监听罗盘数据</button>
+<button type="primary" bindtap="stopCompass">停止监听罗盘数据</button>
+<text>陀螺仪</text>
+<button type="primary" bindtap="startGyroscope">开始监听陀螺仪数据</button>
+<button type="primary" bindtap="stopGyroscope">停止监听陀螺仪数据</button>
+<text>扫码</text>
+<button type="primary" bindtap="scanCode">调起客户端界面进行扫码</button>
+<text>振动</text>
+<button type="primary" bindtap="vibrateShort">短时间振动</button>
+<button type="primary" bindtap="vibrateLong">长时间振动</button>
